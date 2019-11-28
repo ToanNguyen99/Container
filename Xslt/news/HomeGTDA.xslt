@@ -20,6 +20,17 @@
         <div class="row bg-grey">
             <div class="col-lg-8">
                <h2><xsl:value-of select="BriefContent" disable-output-escaping="yes"></xsl:value-of></h2>
+               <div class="view-more-button">
+                <a>
+                   <xsl:attribute name="href">
+                       <xsl:value-of select="Url"></xsl:value-of>
+                   </xsl:attribute>
+                   <xsl:attribute name="title">
+                       <xsl:value-of select="Title"></xsl:value-of>
+                   </xsl:attribute>
+                   <xsl:text disable-output-escaping="yes">Xem thêm</xsl:text>
+               </a>
+               <em class="mdi mdi-arrow-right"></em></div>
             </div>
             <div class="col-lg-4">
                 <div class="home-project-text-wrapper">

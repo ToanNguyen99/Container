@@ -10,7 +10,7 @@
         <div class="item">
             <xsl:if test="IsActive='true'">
                 <xsl:attribute name="class">
-                    <xsl:text disable-output-escaping="yes">active</xsl:text>
+                    <xsl:text disable-output-escaping="yes">item active</xsl:text>
                 </xsl:attribute>
             </xsl:if>
             <a>

@@ -15,7 +15,7 @@
                 <div class="article-title-red-line">
                     <p><xsl:value-of select="Title" disable-output-escaping="yes"></xsl:value-of></p>
                 </div>
-                <div class="row">
+                <div class="row mainbox">
                     <xsl:apply-templates select="News" mode="News1"></xsl:apply-templates>
                 </div>
             </div>

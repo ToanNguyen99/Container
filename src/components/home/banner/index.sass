@@ -2,14 +2,16 @@
 .home-swiper-banner-top-wrapper
 	border-top: 4px solid $blue
 	.swiper-container
+		@media screen and ( max-width: 768px)
+			height: 150px
 	.swiper-slide
 		@media screen and(max-width:1025px)
-			height: auto
+			height: 100%
 			width: auto
 			img
 				width: 100%
 				height: 100%
-				object-fit: contain
+				object-fit: cover
 	.swiper-pagination-bullet
 		background: #e1e1e1
 		opacity: 1

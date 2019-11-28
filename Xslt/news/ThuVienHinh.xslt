@@ -67,6 +67,7 @@
                             </img>
                         </div>
                         <figcaption>
+                            
                             <em class="mdi mdi-image"></em>
                             <div class="title">
                                 <xsl:value-of select="Title" disable-output-escaping="yes"></xsl:value-of>

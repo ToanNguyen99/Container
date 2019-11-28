@@ -11,7 +11,7 @@
             </div>
         </div>
     </xsl:template>
-    <xsl:template match="Zone">
+    <!-- <xsl:template match="Zone">
         <div class="item">
             <xsl:if test="IsActive='true'">
                 <xsl:attribute name="class">
@@ -25,8 +25,8 @@
                 <xsl:attribute name="title">
                     <xsl:value-of select="Title"></xsl:value-of>
                 </xsl:attribute>
-                <xsl:value-of select="Title" disable-output-escaping="yes"></xsl:value-of>
+                <xsl:value-of select="" disable-output-escaping="yes"></xsl:value-of>
             </a>
         </div>
-    </xsl:template>
+    </xsl:template> -->
 </xsl:stylesheet>

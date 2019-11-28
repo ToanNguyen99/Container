@@ -29,7 +29,7 @@ function swiperInit() {
 	var homeTopSwiper = new Swiper(
 		".home-swiper-banner-top-wrapper .swiper-container", {
 			slidesPerView: 1,
-			speed: 1200,
+			// speed: 1200,
 			effect: "fade",
 			fadeEffect: {
 				crossFade: true
@@ -309,6 +309,13 @@ function ProjectDetailSlide() {
 		thumbs: {
 			swiper: galleryThumbs,
 		},
+		breakpoints: {
+            
+            768: {
+                slidesPerView: 3
+            }
+            
+        },
 	});
 }
 function TabNews() {

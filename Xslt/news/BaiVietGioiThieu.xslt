@@ -161,7 +161,15 @@
     </xsl:template>
     <xsl:template match="News" mode="News5">
         <div class="main-image">
-            <div class="image">
+            <div class="image lightgallery">
+                <a>
+                    <xsl:attribute name="href">
+                        <xsl:value-of select="ImageUrl"></xsl:value-of>
+                    </xsl:attribute>
+                    <xsl:attribute name="title">
+                        <xsl:value-of select="Title"></xsl:value-of>
+                    </xsl:attribute>
+                </a>
                 <img>
                     <xsl:attribute name="src">
                         <xsl:value-of select="ImageUrl"></xsl:value-of>
